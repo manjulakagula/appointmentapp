@@ -1,0 +1,148 @@
+/* Write your CSS here */
+.bgContainer {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cont-hr {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+}
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+.image {
+  width: 350px;
+}
+.head {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #171f46;
+  font-weight: 500;
+}
+.label {
+  color: #b5b7c4;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 3px;
+}
+.input {
+  width: 240px;
+  border: 1px solid #b5b7c4;
+  border-radius: 4px;
+  height: 28px;
+  padding-left: 10px;
+  color: black;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+.dateInput {
+  width: 240px;
+  border: 1px solid #b5b7c4;
+  border-radius: 4px;
+  height: 28px;
+  padding-left: 10px;
+  color: black;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+}
+.button {
+  background-color: #8b5cf6;
+  border: 0px solid white;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 10px;
+  width: 40px;
+  height: 20px;
+  border-radius: 5px;
+}
+hr {
+  background-color: #b5b7c4;
+  width: 750px;
+  margin-top: 15px;
+}
+.appont-cont {
+  display: flex;
+  flex-direction: column;
+}
+.appont-head-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.headApp {
+  color: #171f46;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.btn-starred {
+  background-color: transparent;
+  border: 1px solid #8b5cf6;
+  border-radius: 10px;
+  color: #8b5cf6;
+  font-size: 12px;
+  font-family: 'Roboto';
+  width: 70px;
+  height: 25px;
+}
+.Appointments {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.change {
+  background-color: #8b5cf6;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .imgContainer {
+    display: none;
+  }
+  hr {
+    width: 250px;
+  }
+  .Container {
+    width: 280px;
+  }
+  .Appointments {
+    display: flex;
+    flex-direction: column;
+  }
+  .bgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

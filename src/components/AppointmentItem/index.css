@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  border: 1px solid #b5b7c4;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.star-btn {
+  background-color: transparent;
+  border: 0px solid white;
+  align-self: flex-start;
+}
+.head1 {
+  color: #171f46;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  padding-top: 5px;
+}
+.para1 {
+  color: #9897f0;
+  font-size: 10px;
+  font-family: 'Roboto';
+  padding-bottom: 5px;
+}
+.star {
+  width: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .listContainer {
+    justify-content: space-between;
+  }
+}
